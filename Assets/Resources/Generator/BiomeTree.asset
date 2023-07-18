@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493d7b465ce2c0a4eae5037bc78797f6, type: 3}
+  m_Name: BiomeTree
+  m_EditorClassIdentifier: 
+  density: 14
+  variance: 50
+  random_rotation: 0
+  random_scale: 0
+  spawns:
+  - prefab: {fileID: 3622853462434029341, guid: 642473e7eba4b8248bac0b88ffaffaf2,
+      type: 3}
+    probability: 0.5
+  - prefab: {fileID: 8404648350649498371, guid: 82d78d437c0bec34dad3f51418b6d70d,
+      type: 3}
+    probability: 0.5

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b3f61794066e8458754d90fa045f33, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  game_speed: 144
+  starting_items:
+  - item: {fileID: 11400000, guid: 50ee2fba61d728546a830017e76c49e7, type: 2}
+    quantity: 1000
+  - item: {fileID: 11400000, guid: 0bd6abfd550114a41934eab29e14bbd8, type: 2}
+    quantity: 1000
+  eat_action: {fileID: 11400000, guid: beeaae2651b0a6e498ec411b8209a39f, type: 2}
+  build_action: {fileID: 11400000, guid: 0f9e20f9fcc060c4caf786aefc391ade, type: 2}
+  music_playlist: []

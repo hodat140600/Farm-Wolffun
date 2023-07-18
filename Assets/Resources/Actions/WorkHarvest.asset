@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e3285fb1fea6047a76d93c9770a757, type: 3}
+  m_Name: WorkHarvest
+  m_EditorClassIdentifier: 
+  id: harvest
+  priority: 10
+  action_gather: {fileID: 11400000, guid: c492e130ac5ef4f41b7ff66055051de4, type: 2}
+  action_attack: {fileID: 11400000, guid: badb0118f64531e4a8f609165a3bcfcd, type: 2}
+  action_take: {fileID: 11400000, guid: bccac588bc5e5cf42852857ffe58391b, type: 2}

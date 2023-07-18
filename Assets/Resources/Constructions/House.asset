@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b31d7096c998d04ea4846295726dd8b, type: 3}
+  m_Name: House
+  m_EditorClassIdentifier: 
+  id: house
+  title: House
+  icon: {fileID: 21300000, guid: fd5500facf007e744849b4e171f30f74, type: 3}
+  sort_order: 1
+  desc: Increases the maximum population.
+  prefab: {fileID: 3592730105891932473, guid: 430ffb8b9b968ea498843f0e9e8d44ac, type: 3}
+  craftable: 1
+  craft_items:
+  - item: {fileID: 11400000, guid: 50ee2fba61d728546a830017e76c49e7, type: 2}
+    quantity: 50
+  - item: {fileID: 11400000, guid: 0bd6abfd550114a41934eab29e14bbd8, type: 2}
+    quantity: 25
+  craft_items_groups: []
+  craft_requirements: []
+  craft_duration: 1
+  groups:
+  - {fileID: 11400000, guid: c13e899f9b01f86459d98e6720dd7a89, type: 2}
+  build_limit: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e900250253d294babe9c3f427f518d, type: 3}
+  m_Name: metal
+  m_EditorClassIdentifier: 
+  id: metal
+  title: Metal
+  icon: {fileID: 21300000, guid: e6eb25bb5251b0442b0e4a4b8a5a5057, type: 3}
+  sort_order: 0
+  desc: 
+  prefab: {fileID: 8405470939285818099, guid: 096e8912900a1a5469ea817a879a38dc, type: 3}
+  craftable: 1
+  craft_items:
+  - item: {fileID: 11400000, guid: 93abddafb2c856f48b5b98270d9f8b71, type: 2}
+    quantity: 1
+  craft_items_groups: []
+  craft_requirements: []
+  craft_duration: 1
+  groups:
+  - {fileID: 11400000, guid: 92ee61cc9be6fe5489bd987ab596d3e8, type: 2}
+  - {fileID: 11400000, guid: c1b9dad2405b76a44b27e83000bb157f, type: 2}
+  priority: 0
+  cargo_size: 1
+  trade_cost: 40

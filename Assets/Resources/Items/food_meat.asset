@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c51848a8826ab449480dc7d04fedd1, type: 3}
+  m_Name: food_meat
+  m_EditorClassIdentifier: 
+  id: food_meat
+  title: Food
+  icon: {fileID: 21300000, guid: 501f4f6c36c1b3a4eaa17f81a390615d, type: 3}
+  sort_order: 0
+  desc: 
+  prefab: {fileID: 7371043950714101776, guid: b7641206084fcbf49b23768e58f2dd81, type: 3}
+  craftable: 1
+  craft_items: []
+  craft_items_groups: []
+  craft_requirements: []
+  craft_duration: 1
+  groups:
+  - {fileID: 11400000, guid: 1721e2dcdaf2f374eaf41339b6d31dd5, type: 2}
+  - {fileID: 11400000, guid: c65ff8925185fe743ad3ac83ffd60e91, type: 2}
+  - {fileID: 11400000, guid: 4f4d50f3c0d42084d8bc6fb4cfebd9e5, type: 2}
+  priority: 0
+  cargo_size: 1
+  trade_cost: 15
+  health: 1
+  energy: 0
+  hunger: 5
+  thirst: 0
+  happiness: 0

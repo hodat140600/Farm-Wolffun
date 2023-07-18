@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b31d7096c998d04ea4846295726dd8b, type: 3}
+  m_Name: Kitchen
+  m_EditorClassIdentifier: 
+  id: kitchen
+  title: Kitchen
+  icon: {fileID: 21300000, guid: d49aac123770a1d4a827be26099d5db9, type: 3}
+  sort_order: 10
+  desc: Colonists can be assigned here to cook food.
+  prefab: {fileID: 2057585725842578201, guid: 4b1505ebcbbd28740a3f86e15e8af3cc, type: 3}
+  craftable: 1
+  craft_items:
+  - item: {fileID: 11400000, guid: 50ee2fba61d728546a830017e76c49e7, type: 2}
+    quantity: 50
+  - item: {fileID: 11400000, guid: 0bd6abfd550114a41934eab29e14bbd8, type: 2}
+    quantity: 25
+  craft_items_groups: []
+  craft_requirements: []
+  craft_duration: 1
+  groups:
+  - {fileID: 11400000, guid: dc613741953176c4aa932ad1edbdf9f1, type: 2}
+  build_limit: 0

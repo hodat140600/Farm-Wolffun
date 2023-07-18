@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b31d7096c998d04ea4846295726dd8b, type: 3}
+  m_Name: Headquarter3
+  m_EditorClassIdentifier: 
+  id: headquarter3
+  title: HQ 3
+  icon: {fileID: 21300000, guid: 919806c4dc314d5449f8a22dd68ba70e, type: 3}
+  sort_order: 10
+  desc: Main base level 3.
+  prefab: {fileID: 3384492504876011572, guid: 6098c8f52cd6e974380e57dabe366276, type: 3}
+  craftable: 0
+  craft_items:
+  - item: {fileID: 11400000, guid: 50ee2fba61d728546a830017e76c49e7, type: 2}
+    quantity: 50
+  - item: {fileID: 11400000, guid: 93abddafb2c856f48b5b98270d9f8b71, type: 2}
+    quantity: 10
+  craft_items_groups: []
+  craft_requirements: []
+  craft_duration: 1
+  groups: []
+  build_limit: 1
+  equivalents:
+  - {fileID: 11400000, guid: 73b78e57c803dd441827f6861ab50296, type: 2}
+  - {fileID: 11400000, guid: 3023764cd0da37743a847c1825362a35, type: 2}
+  upgrades: []

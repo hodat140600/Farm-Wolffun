@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b31d7096c998d04ea4846295726dd8b, type: 3}
+  m_Name: FarmVeggie
+  m_EditorClassIdentifier: 
+  id: farm_veggie
+  title: Carrot Farm
+  icon: {fileID: 21300000, guid: e83d7acd443a9c54dbbbd5c89265ccfe, type: 3}
+  sort_order: 5
+  desc: A farm that grows carrots.
+  prefab: {fileID: 1137146236862253568, guid: 25ec80b1fa3eb7343a7ab80e5ec564c2, type: 3}
+  craftable: 1
+  craft_items:
+  - item: {fileID: 11400000, guid: fd295d0988d221c448b163e2bad516aa, type: 2}
+    quantity: 10
+  craft_items_groups: []
+  craft_requirements: []
+  craft_duration: 1
+  groups:
+  - {fileID: 11400000, guid: 07af8fe59390f234eabd5d918332efba, type: 2}
+  build_limit: 0
+  equivalents: []
+  upgrades: []

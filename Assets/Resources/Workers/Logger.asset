@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd7829f108495ad40a0f01a70dbc63ce, type: 3}
+  m_Name: Logger
+  m_EditorClassIdentifier: 
+  id: logger
+  title: Logger
+  icon: {fileID: 21300000, guid: ba34b86f11df8f64ea76bab80739342f, type: 3}
+  sort_order: 0
+  desc: 
+  prefab: {fileID: 1039674314698915229, guid: 742d6a66b04c3b144aac303256b9d4dd, type: 3}
+  craftable: 0
+  craft_items: []
+  craft_items_groups: []
+  craft_requirements: []
+  craft_duration: 1
+  groups:
+  - {fileID: 11400000, guid: ab1d2599b8eb285449ebf59fe107b880, type: 2}
+  bonus: 20
+  bonus_value: 0.35
+  bonus_target: {fileID: 11400000, guid: f8411389b10bfa84dae8ec12ef266b05, type: 2}
+  skins:
+  - {fileID: 11400000, guid: d58566c901ebced4aa32302795906ae6, type: 2}
+  - {fileID: 11400000, guid: 11e1e0e1299e84941a244dd74f8eb3cd, type: 2}
