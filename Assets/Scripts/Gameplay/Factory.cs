@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Factories are building that produce things. Either by itself or by assigning workers to it.

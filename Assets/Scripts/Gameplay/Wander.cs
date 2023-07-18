@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Animal wandering behavior script

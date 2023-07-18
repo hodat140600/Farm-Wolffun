@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm.Events
+namespace FarmWolffun.Events
 {
 
     public class EventGroup : MonoBehaviour

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Generic game data (only one file)

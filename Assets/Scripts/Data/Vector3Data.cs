@@ -2,7 +2,7 @@
 using System;
 using System.Collections;
 
-namespace Farm
+namespace FarmWolffun
 {
 
     /// <summary>

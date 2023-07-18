@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Action to work in a factory (kitchen or other...)

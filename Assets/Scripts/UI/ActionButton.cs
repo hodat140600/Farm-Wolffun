@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 
-namespace Farm
+namespace FarmWolffun
 {
     public class ActionButton : MonoBehaviour
     {

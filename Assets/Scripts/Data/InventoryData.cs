@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Part of the SaveData, contain a specific inventory and its items

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Location where workers can be assigned to work to

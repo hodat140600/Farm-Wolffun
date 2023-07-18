@@ -5,7 +5,7 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Basic class for any type of slot (item, other)

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm.Generator
+namespace FarmWolffun.Generator
 {
     /// <summary>
     /// Properties of an object prefab for world gen

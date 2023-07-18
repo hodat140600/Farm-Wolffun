@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Manages stats that are global to the Worker Area (instead of for individual characters

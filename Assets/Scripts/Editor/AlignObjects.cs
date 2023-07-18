@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-namespace Farm.EditorTool
+namespace FarmWolffun.EditorTool
 {
 
     /// <summary>

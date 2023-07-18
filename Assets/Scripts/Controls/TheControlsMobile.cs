@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Controls manager for mobile touch camera (2 fingers)

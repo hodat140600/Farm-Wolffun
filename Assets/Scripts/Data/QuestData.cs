@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm
+namespace FarmWolffun
 {
     [CreateAssetMenu(fileName ="Quest", menuName = "Farm/QuestData", order= 10)]
     public class QuestData : ScriptableObject {

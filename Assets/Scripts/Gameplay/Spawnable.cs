@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Just holds the SpawnData of an object, useful for the Spawner.cs, to prevent spawn too many of same object

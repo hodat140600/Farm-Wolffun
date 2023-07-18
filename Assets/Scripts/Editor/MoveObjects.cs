@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEditor;
 
-namespace Farm.EditorTool
+namespace FarmWolffun.EditorTool
 {
     /// <summary>
     /// Move all selected objects at once by an exact value (instead of doing one by one, or instead of moving with the tool by an not-exact value)

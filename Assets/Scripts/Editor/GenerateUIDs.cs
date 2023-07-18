@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 
-namespace Farm.EditorTool
+namespace FarmWolffun.EditorTool
 {
     /// <summary>
     /// Generates all empty Unique IDs in the scene. Use this tool after adding new objects to make sure they all have a UID.

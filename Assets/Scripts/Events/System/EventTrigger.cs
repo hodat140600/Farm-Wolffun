@@ -8,7 +8,7 @@ using UnityEngine.Events;
 /// Author: Indie Marc (Marc-Antoine Desbiens)
 /// </summary>
 
-namespace Farm.Events
+namespace FarmWolffun.Events
 {
 
     public enum EventType 

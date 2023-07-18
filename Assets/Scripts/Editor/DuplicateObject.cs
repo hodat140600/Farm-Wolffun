@@ -5,7 +5,7 @@ using System.IO;
 using UnityEditor.SceneManagement;
 using System.Collections.Generic;
 
-namespace Farm.EditorTool
+namespace FarmWolffun.EditorTool
 {
     /// <summary>
     /// Use this tool to easily dupplicate a CraftData object and all links

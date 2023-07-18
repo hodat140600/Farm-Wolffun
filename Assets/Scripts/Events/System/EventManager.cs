@@ -6,7 +6,7 @@ using UnityEngine.Events;
 /// Main manager script for dialogues and quests
 /// </summary>
 
-namespace Farm.Events
+namespace FarmWolffun.Events
 {
     public class EventManager : MonoBehaviour
     {

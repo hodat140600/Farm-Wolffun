@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Main game manager

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// UI panel that appears when selecting a selectable

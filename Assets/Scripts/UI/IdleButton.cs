@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-namespace Farm
+namespace FarmWolffun
 {
 
     public class IdleButton : MonoBehaviour

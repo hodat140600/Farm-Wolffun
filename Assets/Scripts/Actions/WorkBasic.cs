@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-namespace Farm
+namespace FarmWolffun
 {
 
     /// <summary>

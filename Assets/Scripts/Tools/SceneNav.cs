@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Farm
+namespace FarmWolffun
 {
 
     //Script to manage transitions between scenes

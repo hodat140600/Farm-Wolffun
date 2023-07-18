@@ -5,7 +5,7 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Shop slot that shows a single item, along with its price

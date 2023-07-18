@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Worker are characters controlled by the player, that can be managed, auto work, and can have attributes

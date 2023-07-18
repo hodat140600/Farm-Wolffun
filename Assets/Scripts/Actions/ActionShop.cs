@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm
+namespace FarmWolffun
 {
     [CreateAssetMenu(fileName = "Action", menuName = "Farm/Actions/Trade", order = 50)]
     public class ActionShop : ActionBasic

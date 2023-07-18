@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-namespace Farm.Events.EditorTool
+namespace FarmWolffun.Events.EditorTool
 {
 
     [CustomEditor(typeof(EventCondition))]

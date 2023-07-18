@@ -4,7 +4,7 @@ using UnityEditor;
 using System.Collections.Generic;
 using UnityEditor.SceneManagement;
 
-namespace Farm.EditorTool
+namespace FarmWolffun.EditorTool
 {
 
     /// <summary>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Farm
+namespace FarmWolffun
 {
     [RequireComponent(typeof(TechSlot))]
     public class TechSlotButton : MonoBehaviour

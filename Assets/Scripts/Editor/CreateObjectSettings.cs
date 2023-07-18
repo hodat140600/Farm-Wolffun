@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace Farm.EditorTool
+namespace FarmWolffun.EditorTool
 {
     /// <summary>
     /// Default Settings file for the CreatObject editor script

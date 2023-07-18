@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// UI panel for buy/sell items (npc shop)

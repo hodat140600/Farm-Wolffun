@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEditor;
 using System.Collections.Generic;
 
-namespace Farm.EditorTool
+namespace FarmWolffun.EditorTool
 {
 
     /// <summary>

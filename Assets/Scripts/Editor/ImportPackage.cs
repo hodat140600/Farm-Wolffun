@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using System.Linq;
 
-namespace Farm.EditorTool
+namespace FarmWolffun.EditorTool
 {
     /// <summary>
     /// Load 3rd party package and integrate them at import

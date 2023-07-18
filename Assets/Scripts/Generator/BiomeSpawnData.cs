@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm.Generator
+namespace FarmWolffun.Generator
 {
 
     [System.Serializable]

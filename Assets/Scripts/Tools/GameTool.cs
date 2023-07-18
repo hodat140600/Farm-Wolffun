@@ -4,7 +4,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Farm
+namespace FarmWolffun
 {
 
     public class GameTool

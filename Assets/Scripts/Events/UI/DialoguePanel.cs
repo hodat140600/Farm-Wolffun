@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Farm.Events
+namespace FarmWolffun.Events
 {
     public class DialoguePanel : UIPanel
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm
+namespace FarmWolffun
 {
     [CreateAssetMenu(fileName = "WorkerData", menuName = "Farm/WorkerData", order = 10)]
     public class WorkerData : CraftData

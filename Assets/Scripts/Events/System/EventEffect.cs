@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Farm.Events
+namespace FarmWolffun.Events
 {
     public enum NarrativeEffectType
     {

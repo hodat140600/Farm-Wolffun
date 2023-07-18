@@ -6,7 +6,7 @@ using UnityEngine;
 using MapMinimap;
 #endif
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Wrapper class for Map Minimap

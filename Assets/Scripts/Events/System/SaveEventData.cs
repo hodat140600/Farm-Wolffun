@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm.Events
+namespace FarmWolffun.Events
 {
     [System.Serializable]
     public class SaveEventData

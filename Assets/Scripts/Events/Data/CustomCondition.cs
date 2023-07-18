@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm.Events
+namespace FarmWolffun.Events
 {
     /// <summary>
     /// Base class for creating custom conditions, inherit from this class, add the [CreateAssetMenu()] tag

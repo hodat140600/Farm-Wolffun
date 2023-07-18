@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 
-namespace Farm.Generator
+namespace FarmWolffun.Generator
 {
     /// <summary>
     /// Helper tools for World Gen

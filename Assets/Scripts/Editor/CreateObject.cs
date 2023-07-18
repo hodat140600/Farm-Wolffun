@@ -5,7 +5,7 @@ using System.IO;
 using UnityEditor.SceneManagement;
 using System.Collections.Generic;
 
-namespace Farm.EditorTool
+namespace FarmWolffun.EditorTool
 {
     public enum CreateObjectType
     {

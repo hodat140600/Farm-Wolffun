@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Events;
 
-namespace Farm
+namespace FarmWolffun
 {
     public class Region : MonoBehaviour
     {

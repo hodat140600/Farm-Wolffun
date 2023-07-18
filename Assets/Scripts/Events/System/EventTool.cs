@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Text.RegularExpressions;
 
-namespace Farm.Events
+namespace FarmWolffun.Events
 {
 
     public class EventTool 

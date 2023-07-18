@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Farm
+namespace FarmWolffun
 {
 
     public class TooltipTargetUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler

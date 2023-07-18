@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
 
-namespace Farm
+namespace FarmWolffun
 {
 
     /// <summary>

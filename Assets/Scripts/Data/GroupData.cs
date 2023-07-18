@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Groups do not do anything on their own. But they are useful to classify objects into groups. And filter them with some functions.

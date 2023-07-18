@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace Farm
+namespace FarmWolffun
 {
     /// <summary>
     /// Updated version of Destructible, for Workers.
