@@ -12,10 +12,10 @@ namespace FarmWolffun.EditorTool
     {
 
         [Header("Save Folders")]
-        public string prefab_folder = "Farm/Prefabs";
-        public string prefab_equip_folder = "Farm/Prefabs/Equip";
-        public string items_folder = "Farm/Resources/Items";
-        public string constructions_folder = "Farm/Resources/Constructions";
+        public string prefab_folder = "Prefabs";
+        public string prefab_equip_folder = "Prefabs/Equip";
+        public string items_folder = "Resources/Items";
+        public string constructions_folder = "Resources/Constructions";
 
         [Header("Default Values")]
         public Material outline;

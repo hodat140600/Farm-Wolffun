@@ -28,9 +28,4 @@ MonoBehaviour:
   groups: []
   values:
   - {fileID: 11400000, guid: 179c924facc75784a971b39d96f93b05, type: 2}
-  - {fileID: 11400000, guid: a4309b7964ae2cf4fb50178244f11241, type: 2}
   - {fileID: 11400000, guid: 855314ae8595653449d5428f2dc63119, type: 2}
-  - {fileID: 11400000, guid: 6e4f5314e61efb5439d0c877cec72ce6, type: 2}
-  - {fileID: 11400000, guid: efb2f51468533884ab1bf53e270e09a5, type: 2}
-  - {fileID: 11400000, guid: 8539151bc4280ba4196b5049e5223627, type: 2}
-  - {fileID: 11400000, guid: e8602c8e4ac86314582d47fc249d5306, type: 2}

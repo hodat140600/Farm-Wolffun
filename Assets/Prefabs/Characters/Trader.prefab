@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 2962112702484102588}
   - component: {fileID: 7075875556606721435}
   - component: {fileID: 3047957654188692610}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Trader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ MonoBehaviour:
   ground_detect_dist: 0.1
   ground_layer:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 64
 --- !u!114 &1227682775068398941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,17 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   global: 0
   cargo_max: 10000
-  starting_items:
-  - item: {fileID: 11400000, guid: db927de9aa8f6b34187e10c019323ea2, type: 2}
-    quantity: 50
-  - item: {fileID: 11400000, guid: ed1e6146d33c1794399e556bb8c5a8e3, type: 2}
-    quantity: 50
-  - item: {fileID: 11400000, guid: 6874d53a37042814ea8f4ad568cb2638, type: 2}
-    quantity: 50
-  - item: {fileID: 11400000, guid: 5eb36b1f36c68944ab460b9644571b5e, type: 2}
-    quantity: 50
-  - item: {fileID: 11400000, guid: c53506a26631f1c488d518a40d2ec7d1, type: 2}
-    quantity: 50
+  starting_items: []
 --- !u!114 &3047957654188692610
 MonoBehaviour:
   m_ObjectHideFlags: 0

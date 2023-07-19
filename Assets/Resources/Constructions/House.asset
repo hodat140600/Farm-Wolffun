@@ -20,13 +20,13 @@ MonoBehaviour:
   prefab: {fileID: 3592730105891932473, guid: 430ffb8b9b968ea498843f0e9e8d44ac, type: 3}
   craftable: 1
   craft_items:
-  - item: {fileID: 11400000, guid: 50ee2fba61d728546a830017e76c49e7, type: 2}
-    quantity: 50
-  - item: {fileID: 11400000, guid: 0bd6abfd550114a41934eab29e14bbd8, type: 2}
-    quantity: 25
+  - item: {fileID: 11400000, guid: fd295d0988d221c448b163e2bad516aa, type: 2}
+    quantity: 500
   craft_items_groups: []
   craft_requirements: []
   craft_duration: 1
   groups:
   - {fileID: 11400000, guid: c13e899f9b01f86459d98e6720dd7a89, type: 2}
   build_limit: 0
+  equivalents: []
+  upgrades: []

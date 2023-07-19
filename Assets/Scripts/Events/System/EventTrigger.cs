@@ -5,7 +5,6 @@ using UnityEngine.Events;
 
 /// <summary>
 /// Script for narrative event (triggering quests or other)
-/// Author: Indie Marc (Marc-Antoine Desbiens)
 /// </summary>
 
 namespace FarmWolffun.Events
