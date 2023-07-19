@@ -19,7 +19,9 @@ MonoBehaviour:
   desc: 
   prefab: {fileID: 0}
   craftable: 1
-  craft_items: []
+  craft_items:
+  - item: {fileID: 11400000, guid: fd295d0988d221c448b163e2bad516aa, type: 2}
+    quantity: 500
   craft_items_groups: []
   craft_requirements: []
   craft_duration: 1
