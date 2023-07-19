@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace FarmWolffun
@@ -121,6 +122,18 @@ namespace FarmWolffun
                 int quant = Mathf.Min(set.quantity, quantity);
                 AddItem(item, -quant);
                 Item.Create(item, pos, quant);
+            }
+        }
+
+        public void RemoveAllItems()
+        {
+            List<ItemSet> item_sets = GetItems();
+            if (item_sets != null)
+            {
+                foreach (ItemSet set in item_sets)
+                {
+                    AddItem(set.item, -set.quantity);
+                }
             }
         }
 

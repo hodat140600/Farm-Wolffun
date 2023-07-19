@@ -23,6 +23,7 @@ namespace FarmWolffun
         public int priority = 0;        //Priority for using (like it will eat highest priority items first)
         public int cargo_size = 1;      //How much space this item takes in inventories?
         public int trade_cost = 1;      //Base cost when trading the item
+        public int trade_quantiy = 1;      //Base quantity in once purchase cost when trading the item
 
         protected static List<ItemData> ilist = new List<ItemData>();
 

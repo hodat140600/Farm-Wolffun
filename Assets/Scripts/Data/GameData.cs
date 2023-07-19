@@ -12,6 +12,7 @@ namespace FarmWolffun
     public class GameData : ScriptableObject
     {
         [Header("Gameplay")]
+        [Tooltip("Time goes X times faster than in real life")]
         public float game_speed = 144f;     //Time goes X times faster than in real life
 
         [Header("Music")]

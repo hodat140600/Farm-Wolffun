@@ -111,7 +111,7 @@ MonoBehaviour:
   snap_group: {fileID: 11400000, guid: 475116618cd72554da73d9a101f59328, type: 2}
   floor_layer:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 64
   obstacle_layer:
     serializedVersion: 2
     m_Bits: 0

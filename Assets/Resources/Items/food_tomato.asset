@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4c51848a8826ab449480dc7d04fedd1, type: 3}
-  m_Name: food_veggie
+  m_Name: food_tomato
   m_EditorClassIdentifier: 
-  id: food_veggie
+  id: food_tomato
   title: Food
-  icon: {fileID: 21300000, guid: 8e91141c63df222439ba1aa73f0014c4, type: 3}
+  icon: {fileID: 21300000, guid: e22ebb7991d97a546ac38ca12cc2b0d1, type: 3}
   sort_order: 0
   desc: 
   prefab: {fileID: 1281394334841304804, guid: c7a1d659120b2b04594a547b08290058, type: 3}
@@ -23,13 +23,13 @@ MonoBehaviour:
   craft_items_groups: []
   craft_requirements: []
   craft_duration: 1
+  craft_quantity: 1
   groups:
   - {fileID: 11400000, guid: 1721e2dcdaf2f374eaf41339b6d31dd5, type: 2}
-  - {fileID: 11400000, guid: c65ff8925185fe743ad3ac83ffd60e91, type: 2}
-  - {fileID: 11400000, guid: 4f4d50f3c0d42084d8bc6fb4cfebd9e5, type: 2}
   priority: 0
   cargo_size: 1
-  trade_cost: 10
+  trade_cost: 8
+  trade_quantiy: 1
   health: 1
   energy: 0
   hunger: 5

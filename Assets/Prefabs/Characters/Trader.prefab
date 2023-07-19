@@ -183,7 +183,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   global: 0
   cargo_max: 10000
-  starting_items: []
+  starting_items:
+  - item: {fileID: 11400000, guid: 9174f5da720d89b48a3aebaab8425104, type: 2}
+    quantity: 50
+  - item: {fileID: 11400000, guid: e0b6d79536557dd48b27268e54eb4b79, type: 2}
+    quantity: 50
+  - item: {fileID: 11400000, guid: f48f941e57b0c984fbb9ef07a16861b6, type: 2}
+    quantity: 50
+  - item: {fileID: 11400000, guid: 4d76a88716e356c419f4a0c461ec5f4f, type: 2}
+    quantity: 50
+  - item: {fileID: 11400000, guid: f692a952cb075b24d85de555338176fd, type: 2}
+    quantity: 50
 --- !u!114 &3047957654188692610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,7 +210,7 @@ MonoBehaviour:
   currency: {fileID: 11400000, guid: fd295d0988d221c448b163e2bad516aa, type: 2}
   sell_group: {fileID: 0}
   buy_factor: 1
-  sell_factor: 0.5
+  sell_factor: 1
 --- !u!1 &1277516209356575504
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace FarmWolffun
@@ -22,6 +23,10 @@ namespace FarmWolffun
         public CraftData default_item;              //Item selected at start
         public CraftData[] items;                   //List of available items that can be produced
 
+        public bool produce_one_by_one;
+        [ShowIf("produce_one_by_one")] 
+        public float time_product_out_of_date = 1f; //Time product out of date, in game-hour
+        
         private Selectable selectable;
         private Interactable interact;
         private Inventory inventory; //Can be null
@@ -33,7 +38,11 @@ namespace FarmWolffun
         private float progress = 0f;
 
         private static List<Factory> factory_list = new List<Factory>();
+        private ItemData last_craft_item;
+        private float last_time_craft;
 
+        public bool test;
+        
         void Awake()
         {
             factory_list.Add(this);
@@ -88,6 +97,10 @@ namespace FarmWolffun
                         CompleteWork();
                     }
                 }
+                else
+                {
+                    CheckOutOfDateProduct();
+                }
             }
 
             //save selection
@@ -98,6 +111,7 @@ namespace FarmWolffun
         public void SelectItem(CraftData item)
         {
             selected_item = item;
+            item_quantity = item.craft_quantity;
             SetProgress(0f);
         }
 
@@ -128,7 +142,9 @@ namespace FarmWolffun
 
                 if (selected_item is ItemData)
                 {
-                    inventory.AddItem((ItemData)selected_item, item_quantity);
+                    last_craft_item = (ItemData)selected_item;
+                    last_time_craft = TheGame.Get().PlayTime;
+                    inventory.AddItem(last_craft_item, item_quantity);
                 }
 
                 if (selected_item is CraftGroupData)
@@ -152,7 +168,8 @@ namespace FarmWolffun
         {
             Inventory global = Inventory.GetGlobal();
             bool valid = IsValid() && selected_item != null && global.HasCraftCost(selected_item, item_quantity)
-                && selected_item.HasRequirements() && !IsPopCap();
+                && selected_item.HasRequirements() && !IsPopCap() && IsValidProduce();
+            test = valid;
             return valid;
         }
 
@@ -194,6 +211,18 @@ namespace FarmWolffun
             return selected_item != null ? selected_item.craft_duration : 0f;
         }
 
+        public void CheckOutOfDateProduct()
+        {
+            if (produce_one_by_one)
+            {
+                if (!CanProduce() && TheGame.Get().PlayTime - last_time_craft >= TimeOutOfDate)
+                {
+                    inventory.AddItem(last_craft_item, -item_quantity);
+                    Debug.Log("xoa ne " + (TheGame.Get().PlayTime - last_time_craft));
+                }
+            }
+        }
+        
         public bool IsAlive()
         {
             return gameObject != null && gameObject.activeSelf;
@@ -204,11 +233,24 @@ namespace FarmWolffun
             return construction == null || construction.IsCompleted();
         }
 
+        public bool IsValidProduce()
+        {
+            if (produce_one_by_one)
+            {
+                if (!inventory.IsEmpty())
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
         public CraftData GetSelected()
         {
             return selected_item;
         }
 
+        public float TimeOutOfDate { get { return time_product_out_of_date * 3600f; } }
         public Selectable Selectable { get { return selectable; } }
         public Interactable Interactable { get { return interact; } }
         public Construction Construction { get { return construction; } }

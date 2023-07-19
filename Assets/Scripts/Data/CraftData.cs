@@ -48,6 +48,7 @@ namespace FarmWolffun
         public GroupSet[] craft_items_groups;   //Items required to craft (by group, so can be any filler item in that group)
         public CraftData[] craft_requirements;  //Constructions or Tech that the player must have to craft this
         public float craft_duration = 1f;   //In game hours
+        public int craft_quantity = 1;   //In game hours
 
         [Header("Groups")]
         public GroupData[] groups;          //Groups associated with this 

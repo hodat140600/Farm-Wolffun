@@ -129,7 +129,7 @@ MonoBehaviour:
   snap_group: {fileID: 0}
   floor_layer:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 64
   obstacle_layer:
     serializedVersion: 2
     m_Bits: 1

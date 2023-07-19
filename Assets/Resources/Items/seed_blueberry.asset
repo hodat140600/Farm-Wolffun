@@ -9,28 +9,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4c51848a8826ab449480dc7d04fedd1, type: 3}
-  m_Name: food_grain
+  m_Script: {fileID: 11500000, guid: c9e900250253d294babe9c3f427f518d, type: 3}
+  m_Name: seed_blueberry
   m_EditorClassIdentifier: 
-  id: food_grain
-  title: Food
-  icon: {fileID: 21300000, guid: 7385a623f67504a43af3df52dd49cdb6, type: 3}
+  id: seed_blueberry
+  title: Seed Blueberry
+  icon: {fileID: 21300000, guid: 2372264c1c7cd694ebd2d372672d8744, type: 3}
   sort_order: 0
   desc: 
-  prefab: {fileID: 5251632764717111301, guid: be14b49de884ca84889c0455188b4b2d, type: 3}
-  craftable: 1
+  prefab: {fileID: 0}
+  craftable: 0
   craft_items: []
   craft_items_groups: []
   craft_requirements: []
   craft_duration: 1
   craft_quantity: 1
   groups:
-  - {fileID: 11400000, guid: 1721e2dcdaf2f374eaf41339b6d31dd5, type: 2}
+  - {fileID: 11400000, guid: b208c19c5a9c28f419fd16c1d78eb7fe, type: 2}
   priority: 0
   cargo_size: 1
-  trade_cost: 10
-  health: 1
-  energy: 0
-  hunger: 5
-  thirst: 0
-  happiness: 0
+  trade_cost: 50
+  trade_quantiy: 1

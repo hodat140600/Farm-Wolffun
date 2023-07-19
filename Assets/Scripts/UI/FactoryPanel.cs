@@ -126,6 +126,9 @@ namespace FarmWolffun
 
                 if (factory.IsPopCap())
                     warning.text = "Population limit reached";
+                
+                if (!factory.IsValidProduce())
+                    warning.text = "Need to harvest product";
             }
         }
 

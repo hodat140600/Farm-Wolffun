@@ -251,7 +251,7 @@ MonoBehaviour:
   snap_group: {fileID: 0}
   floor_layer:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 64
   obstacle_layer:
     serializedVersion: 2
     m_Bits: 1
@@ -315,11 +315,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   worker_work_speed: 1
-  auto_work_speed: 0
+  auto_work_speed: 1
   item_quantity: 5
   default_item: {fileID: 11400000, guid: fd252b1f80bfa3d42975d9df45cd4ed4, type: 2}
   items:
   - {fileID: 11400000, guid: fd252b1f80bfa3d42975d9df45cd4ed4, type: 2}
+  produce_one_by_one: 1
+  time_product_out_of_date: 0.002
 --- !u!114 &4552852111205552857
 MonoBehaviour:
   m_ObjectHideFlags: 0

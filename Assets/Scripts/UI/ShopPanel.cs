@@ -197,7 +197,7 @@ namespace FarmWolffun
                 if (inventory.HasItem(trader.currency, cost))
                 {
                     inventory.AddItem(trader.currency, -cost);
-                    inventory.AddItem(item, 1);
+                    inventory.AddItem(item, item.trade_quantiy);
                     trader.Inventory.AddItem(item, -1);
 
                     TheAudio.Get().PlaySFX("shop", buy_sell_audio);

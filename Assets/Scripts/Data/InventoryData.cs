@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using Sirenix.OdinInspector;
+using UnityEngine;
 
 namespace FarmWolffun
 {
@@ -9,6 +11,7 @@ namespace FarmWolffun
     [System.Serializable]
     public class InventoryData
     {
+        [ShowInInspector]
         public Dictionary<string, int> items = new Dictionary<string, int>();
 
         public void AddItem(ItemSet[] items)

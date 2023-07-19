@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4c51848a8826ab449480dc7d04fedd1, type: 3}
-  m_Name: food_grain
+  m_Name: food_milk
   m_EditorClassIdentifier: 
-  id: food_grain
+  id: food_milk
   title: Food
-  icon: {fileID: 21300000, guid: 7385a623f67504a43af3df52dd49cdb6, type: 3}
+  icon: {fileID: 21300000, guid: 37e5a5f29f56a994a93f341265b7aca5, type: 3}
   sort_order: 0
   desc: 
-  prefab: {fileID: 5251632764717111301, guid: be14b49de884ca84889c0455188b4b2d, type: 3}
+  prefab: {fileID: 7371043950714101776, guid: b7641206084fcbf49b23768e58f2dd81, type: 3}
   craftable: 1
   craft_items: []
   craft_items_groups: []
@@ -28,7 +28,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1721e2dcdaf2f374eaf41339b6d31dd5, type: 2}
   priority: 0
   cargo_size: 1
-  trade_cost: 10
+  trade_cost: 15
   health: 1
   energy: 0
   hunger: 5

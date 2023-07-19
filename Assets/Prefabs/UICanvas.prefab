@@ -669,7 +669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tab_group: shop
-  filter_group: {fileID: 11400000, guid: 4f4d50f3c0d42084d8bc6fb4cfebd9e5, type: 2}
+  filter_group: {fileID: 11400000, guid: b208c19c5a9c28f419fd16c1d78eb7fe, type: 2}
   highlight: {fileID: 6119850495296789384}
   select_at_start: 1
 --- !u!114 &2844277531083898785
@@ -6804,7 +6804,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7718435646704929888}
   m_HandleRect: {fileID: 6151216676357462803}
   m_Direction: 2
-  m_Value: 0.9999998
+  m_Value: 1
   m_Size: 0.5853583
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -13003,7 +13003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tab_group: shop
-  filter_group: {fileID: 11400000, guid: 1c108360bdf929843b0a71fb4645bbca, type: 2}
+  filter_group: {fileID: 11400000, guid: 6aad634ac81aa8a4f9f98b8c00616d09, type: 2}
   highlight: {fileID: 112117746366775393}
   select_at_start: 1
 --- !u!114 &4014454645490476452
@@ -18845,7 +18845,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6139191153170369784}
   m_Direction: 2
   m_Value: 1.0000002
-  m_Size: 0.53333896
+  m_Size: 0.5333389
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -19534,7 +19534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tab_group: shop
-  filter_group: {fileID: 11400000, guid: c1b9dad2405b76a44b27e83000bb157f, type: 2}
+  filter_group: {fileID: 11400000, guid: ac5380e27356bdb45a47901f434737fb, type: 2}
   highlight: {fileID: 1505542793329020809}
   select_at_start: 1
 --- !u!114 &4919726808152024797

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -29,8 +30,13 @@ namespace FarmWolffun
         private float speed_multiplier = 1f;
         private float game_speed_per_hour = 1f;
         private float game_speed_per_sec = 0.002f;
+        private float play_time;
+        private float day_time;
         private bool inited = false;
         private int prev_day;
+        
+        public float PlayTime { get { return play_time; } }
+        public float DayTime { get { return day_time; } }
 
         private static TheGame instance;
 
@@ -175,7 +181,8 @@ namespace FarmWolffun
 
             //Game time
             SaveData pdata = SaveData.Get();
-            pdata.day_time += game_speed_per_sec * Time.deltaTime;
+            day_time += game_speed_per_sec * Time.deltaTime;
+            pdata.day_time = day_time;
             if (pdata.day_time >= 24f)
             {
                 pdata.day_time = 0f;
@@ -183,7 +190,8 @@ namespace FarmWolffun
             }
 
             //Play time
-            pdata.play_time += Time.deltaTime;
+            play_time += Time.deltaTime;
+            pdata.play_time = play_time;
 
             //NewDay
             if (pdata.day > prev_day)
