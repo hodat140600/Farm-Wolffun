@@ -1478,7 +1478,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2992340627809708288, guid: ffe700a509170b4499b490c7163757ee, type: 3}
       propertyPath: starting_items.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2992340627809708288, guid: ffe700a509170b4499b490c7163757ee, type: 3}
       propertyPath: starting_items.Array.data[0].item
@@ -1712,6 +1712,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1152367354}
     m_Modifications:
+    - target: {fileID: 114837421131246062, guid: ef58d4a7dadaccb42a3da0197c2ff994, type: 3}
+      propertyPath: floor_layer.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341476124233261748, guid: ef58d4a7dadaccb42a3da0197c2ff994, type: 3}
+      propertyPath: starting_items.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341476124233261748, guid: ef58d4a7dadaccb42a3da0197c2ff994, type: 3}
+      propertyPath: starting_items.Array.data[0].item
+      value: 
+      objectReference: {fileID: 11400000, guid: fd295d0988d221c448b163e2bad516aa, type: 2}
+    - target: {fileID: 6341476124233261748, guid: ef58d4a7dadaccb42a3da0197c2ff994, type: 3}
+      propertyPath: starting_items.Array.data[0].quantity
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 7901067684184071136, guid: ef58d4a7dadaccb42a3da0197c2ff994, type: 3}
       propertyPath: uid
       value: storage_iAgVqYm684o
