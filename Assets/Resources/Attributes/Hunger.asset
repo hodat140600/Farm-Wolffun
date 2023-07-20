@@ -16,7 +16,7 @@ MonoBehaviour:
   title: Hunger
   start_value: 100
   max_value: 100
-  value_per_hour: -10
+  value_per_hour: -0.01
   low_status: HUNGRY
   low_threshold: 25
   deplete_hp_loss: -20

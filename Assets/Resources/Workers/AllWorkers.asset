@@ -24,7 +24,7 @@ MonoBehaviour:
     quantity: 500
   craft_items_groups: []
   craft_requirements: []
-  craft_duration: 10
+  craft_duration: 5
   craft_quantity: 1
   groups: []
   values:

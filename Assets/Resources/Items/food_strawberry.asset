@@ -24,13 +24,13 @@ MonoBehaviour:
     quantity: 1
   craft_items_groups: []
   craft_requirements: []
-  craft_duration: 1
-  craft_quantity: 1
+  craft_duration: 1.6666666
+  craft_quantity: 20
   groups:
   - {fileID: 11400000, guid: 1721e2dcdaf2f374eaf41339b6d31dd5, type: 2}
   priority: 0
   cargo_size: 1
-  trade_cost: 5
+  trade_cost: 50
   trade_quantiy: 1
   health: 1
   energy: 0
