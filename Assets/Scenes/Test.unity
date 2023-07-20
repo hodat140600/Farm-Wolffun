@@ -787,17 +787,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a5d6cf00b3a6f143931cefc543796ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 99
+  type: 97
   target_id: 
   oper: 0
   value_object: {fileID: 0}
   value_data: {fileID: 0}
   value_group: {fileID: 0}
   value_audio: {fileID: 0}
-  value_custom: {fileID: 0}
+  value_custom: {fileID: 11400000, guid: 09fac6be0c88ab244bd70a52f87cf776, type: 2}
   value_attr: 0
   value_target:
-    type: 0
+    type: 25
     target_id: 
     target_object: {fileID: 0}
     target_group: {fileID: 0}
@@ -814,7 +814,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1062845892}
         m_TargetAssemblyTypeName: FarmWolffun.TheGame, Assembly-CSharp
-        m_MethodName: Pause
+        m_MethodName: NewGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1426,7 +1426,7 @@ MonoBehaviour:
   value_group: {fileID: 0}
   value_custom: {fileID: 0}
   value_attr: 0
-  value_int: 1000000
+  value_int: 10000
   value_float: 0
   value_string: 
 --- !u!114 &1697844053
@@ -1467,7 +1467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e3c53345e50ca140ba0b738762765e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 
+  id: end_quest
   trigger_type: 1
   trigger_target: {fileID: 0}
   trigger_value: 0
