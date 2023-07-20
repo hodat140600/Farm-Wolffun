@@ -24,7 +24,8 @@ MonoBehaviour:
     quantity: 500
   craft_items_groups: []
   craft_requirements: []
-  craft_duration: 1
+  craft_duration: 10
+  craft_quantity: 1
   groups: []
   values:
   - {fileID: 11400000, guid: 179c924facc75784a971b39d96f93b05, type: 2}

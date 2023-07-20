@@ -375,10 +375,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96fd336c98b85134a90f08cf27eb542a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  worker_work_speed: 0
+  worker_work_speed: 1
   auto_work_speed: 1
   item_quantity: 1
-  default_item: {fileID: 11400000, guid: 9f0f33009d3c9514487c1272c69955a8, type: 2}
+  default_item: {fileID: 11400000, guid: e447ca7b69fc3c84ba2f7646df238fdf, type: 2}
   items:
   - {fileID: 11400000, guid: e447ca7b69fc3c84ba2f7646df238fdf, type: 2}
   - {fileID: 11400000, guid: 0a633d4260c52834d9a7148d60b12431, type: 2}

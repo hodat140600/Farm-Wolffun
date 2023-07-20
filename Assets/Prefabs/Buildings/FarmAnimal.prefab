@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96fd336c98b85134a90f08cf27eb542a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  worker_work_speed: 0
+  worker_work_speed: 1
   auto_work_speed: 1
   item_quantity: 1
   default_item: {fileID: 11400000, guid: 5b6f06800980ede44b2af59dbd744f61, type: 2}
