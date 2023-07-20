@@ -10,7 +10,7 @@ All managers can be accessed with Get() example TheGame.Get()
   *Core manager of the gameplay, contain function for loading and save the game. Will spawn saved objects when the scene starts, and will make the time progress and manage time speed.*
 - [TheControls.cs](Assets/Scripts/TheControls.cs)
 
-  *Related to keyboard controls, or mouse controls are in this script.*
+  *Related to keyboard controls, or mouse controls are in this script. Check the component to see controls setting*
 - [TheData.cs](Assets/Scripts/TheData.cs)
 
   *Loads all data contained in the Resources folder. Also spawn the UI and the Audio manager.*
