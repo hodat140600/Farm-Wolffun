@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,9 +17,11 @@ namespace FarmWolffun
         public float value;             //Per game hour for attribute increase. Percentage must be represented in decimals (0.10 for 10%)
         public float range = 10f;       //Radius affected around the object
 
-        void Start()
+        private Construction _construction;
+
+        private void Awake()
         {
-        
+            _construction = GetComponent<Construction>();
         }
 
         void Update()
@@ -41,6 +44,14 @@ namespace FarmWolffun
                     {
                         worker.Character.SetTempBonusEffect(bonus, value, 0.01f);
                     }
+                }
+            }
+
+            foreach (Construction construction in Construction.GetAll())
+            {
+                if (bonus != BonusType.None)
+                {
+                    construction.BonusValue = _construction.GetBonusMult(BonusType.FactorySpeed);
                 }
             }
         }

@@ -7,6 +7,12 @@ namespace FarmWolffun
     [CreateAssetMenu(fileName = "BuildingData", menuName = "Farm/BuildingData", order = 10)]
     public class ConstructionData : CraftData
     {
+        [Header("Class Bonus")]
+        public BonusType bonus;     //When equipped, will provide this bonus
+        [Tooltip("Value in %")]
+        public float bonus_value;
+        public GroupData bonus_target; //If null, apply to all, if not apply to this target only (for gathering speed mostly)
+        
         [Header("Construction")]
         public int build_limit = 0; //0 is infinite
 
@@ -51,5 +57,8 @@ namespace FarmWolffun
         {
             return const_list;
         }
+        
+        public float BonusValue { get { return bonus_value / 100f; } }
+        public BonusType BonusType { get { return bonus; } }
     }
 }

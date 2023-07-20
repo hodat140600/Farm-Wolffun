@@ -13,22 +13,25 @@ MonoBehaviour:
   m_Name: food_grain
   m_EditorClassIdentifier: 
   id: food_grain
-  title: Food
+  title: Grain
   icon: {fileID: 21300000, guid: 7385a623f67504a43af3df52dd49cdb6, type: 3}
   sort_order: 0
   desc: 
   prefab: {fileID: 5251632764717111301, guid: be14b49de884ca84889c0455188b4b2d, type: 3}
   craftable: 1
-  craft_items: []
+  craft_items:
+  - item: {fileID: 11400000, guid: a534ab2f13f016a468149a131920c882, type: 2}
+    quantity: 1
   craft_items_groups: []
   craft_requirements: []
   craft_duration: 1
-  craft_quantity: 1
+  craft_quantity: 30
   groups:
   - {fileID: 11400000, guid: 1721e2dcdaf2f374eaf41339b6d31dd5, type: 2}
   priority: 0
   cargo_size: 1
   trade_cost: 10
+  trade_quantiy: 1
   health: 1
   energy: 0
   hunger: 5

@@ -20,11 +20,12 @@ MonoBehaviour:
   prefab: {fileID: 1137146236862253568, guid: 25ec80b1fa3eb7343a7ab80e5ec564c2, type: 3}
   craftable: 1
   craft_items:
-  - item: {fileID: 11400000, guid: fd295d0988d221c448b163e2bad516aa, type: 2}
-    quantity: 10
+  - item: {fileID: 11400000, guid: 9174f5da720d89b48a3aebaab8425104, type: 2}
+    quantity: 1
   craft_items_groups: []
   craft_requirements: []
   craft_duration: 1
+  craft_quantity: 1
   groups:
   - {fileID: 11400000, guid: 07af8fe59390f234eabd5d918332efba, type: 2}
   build_limit: 0

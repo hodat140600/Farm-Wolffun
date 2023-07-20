@@ -670,6 +670,54 @@ namespace FarmWolffun
         public bool paid = true;
         public float build_progress = 0f;
         public string upgraded_from;
+        
+        public Dictionary<AttributeType, float> attributes = new Dictionary<AttributeType, float>();
+        
+        public void FixData()
+        {
+            //Fix data to make sure old save files compatible with new game version
+            if (attributes == null)
+                attributes = new Dictionary<AttributeType, float>();
+        }
+
+        //--- Construction Attributes ----
+
+        public bool HasAttribute(AttributeType type)
+        {
+            return attributes.ContainsKey(type);
+        }
+
+        public float GetAttributeValue(AttributeType type)
+        {
+            if (attributes.ContainsKey(type))
+                return attributes[type];
+            return 0f;
+        }
+
+        public void SetAttributeValue(AttributeType type, float value)
+        {
+            attributes[type] = value;
+        }
+
+        public void AddAttributeValue(AttributeType type, float value)
+        {
+            if (attributes.ContainsKey(type))
+                attributes[type] += value;
+        }
+
+        public void SetAttributeValue(AttributeType type, float value, float max)
+        {
+            attributes[type] = Mathf.Clamp(value, 0f, max);
+        }
+
+        public void AddAttributeValue(AttributeType type, float value, float max)
+        {
+            if (attributes.ContainsKey(type))
+            {
+                attributes[type] += value;
+                attributes[type] = Mathf.Clamp(attributes[type], 0f, max);
+            }
+        }
     }
 
     [Serializable]

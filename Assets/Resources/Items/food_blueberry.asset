@@ -10,27 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4c51848a8826ab449480dc7d04fedd1, type: 3}
-  m_Name: food_milk
+  m_Name: food_blueberry
   m_EditorClassIdentifier: 
-  id: food_milk
-  title: Milk
-  icon: {fileID: 21300000, guid: 37e5a5f29f56a994a93f341265b7aca5, type: 3}
+  id: food_blueberry
+  title: Blue berry
+  icon: {fileID: 21300000, guid: 72fa74ca842ff1a4abab764ee1fea313, type: 3}
   sort_order: 0
   desc: 
-  prefab: {fileID: 7371043950714101776, guid: b7641206084fcbf49b23768e58f2dd81, type: 3}
+  prefab: {fileID: 1281394334841304804, guid: c7a1d659120b2b04594a547b08290058, type: 3}
   craftable: 1
   craft_items:
-  - item: {fileID: 11400000, guid: 4d76a88716e356c419f4a0c461ec5f4f, type: 2}
+  - item: {fileID: 11400000, guid: f692a952cb075b24d85de555338176fd, type: 2}
     quantity: 1
   craft_items_groups: []
   craft_requirements: []
   craft_duration: 1
-  craft_quantity: 100
+  craft_quantity: 1
   groups:
   - {fileID: 11400000, guid: 1721e2dcdaf2f374eaf41339b6d31dd5, type: 2}
   priority: 0
   cargo_size: 1
-  trade_cost: 15
+  trade_cost: 5
   trade_quantiy: 1
   health: 1
   energy: 0

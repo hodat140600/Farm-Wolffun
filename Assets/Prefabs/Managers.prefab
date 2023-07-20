@@ -411,15 +411,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   global: 1
-  cargo_max: 999999
-  starting_items:
-  - item: {fileID: 11400000, guid: 9174f5da720d89b48a3aebaab8425104, type: 2}
-    quantity: 3
-  - item: {fileID: 11400000, guid: e0b6d79536557dd48b27268e54eb4b79, type: 2}
-    quantity: 10
-  - item: {fileID: 11400000, guid: f692a952cb075b24d85de555338176fd, type: 2}
-    quantity: 10
-  - item: {fileID: 11400000, guid: 4d76a88716e356c419f4a0c461ec5f4f, type: 2}
-    quantity: 2
-  - item: {fileID: 11400000, guid: fd295d0988d221c448b163e2bad516aa, type: 2}
-    quantity: 500
+  cargo_max: 0
+  starting_items: []

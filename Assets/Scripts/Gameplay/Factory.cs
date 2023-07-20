@@ -38,11 +38,8 @@ namespace FarmWolffun
         private float progress = 0f;
 
         private static List<Factory> factory_list = new List<Factory>();
-        private ItemData last_craft_item;
-        private float last_time_craft;
+        private Dictionary<float, ItemData> items_craft_time = new Dictionary<float, ItemData>();
 
-        public bool test;
-        
         void Awake()
         {
             factory_list.Add(this);
@@ -62,7 +59,9 @@ namespace FarmWolffun
         private void Start()
         {
             if (default_item != null)
+            {
                 selected_item = default_item;
+            }
 
             //Set saved selection
             if (uid.HasString("selection"))
@@ -77,7 +76,7 @@ namespace FarmWolffun
                 progress = uid.GetFloat("progress");
             }
         }
-
+        
         void Update()
         {
             if (TheGame.Get().IsPaused())
@@ -85,10 +84,10 @@ namespace FarmWolffun
 
             if (selected_item != null)
             {
-                if (CanProduce())
+                if (CanProduce()/* && IsValidProduce()*/)
                 {
                     float gspeed = TheGame.Get().GetGameTimeSpeed();
-                    progress += auto_work_speed * gspeed * Time.deltaTime;
+                    progress += AutoWorkSpeed * gspeed * Time.deltaTime;
                     uid.SetFloat("progress", progress);
 
                     float duration = selected_item.craft_duration;
@@ -97,11 +96,8 @@ namespace FarmWolffun
                         CompleteWork();
                     }
                 }
-                else
-                {
-                    CheckOutOfDateProduct();
-                }
             }
+            CheckOutOfDateProduct();
 
             //save selection
             string sel_id = selected_item != null ? selected_item.id : "";
@@ -111,7 +107,6 @@ namespace FarmWolffun
         public void SelectItem(CraftData item)
         {
             selected_item = item;
-            item_quantity = item.craft_quantity;
             SetProgress(0f);
         }
 
@@ -142,9 +137,9 @@ namespace FarmWolffun
 
                 if (selected_item is ItemData)
                 {
-                    last_craft_item = (ItemData)selected_item;
-                    last_time_craft = TheGame.Get().PlayTime;
-                    inventory.AddItem(last_craft_item, item_quantity);
+                    ItemData item = (ItemData)selected_item;
+                    items_craft_time.Add(TheGame.Get().PlayTime, item);
+                    inventory.AddItem(item, selected_item.craft_quantity * item_quantity);
                 }
 
                 if (selected_item is CraftGroupData)
@@ -168,8 +163,7 @@ namespace FarmWolffun
         {
             Inventory global = Inventory.GetGlobal();
             bool valid = IsValid() && selected_item != null && global.HasCraftCost(selected_item, item_quantity)
-                && selected_item.HasRequirements() && !IsPopCap() && IsValidProduce();
-            test = valid;
+                         && selected_item.HasRequirements() && !IsPopCap();
             return valid;
         }
 
@@ -215,10 +209,23 @@ namespace FarmWolffun
         {
             if (produce_one_by_one)
             {
-                if (!CanProduce() && TheGame.Get().PlayTime - last_time_craft >= TimeOutOfDate)
+                if (items_craft_time.Count == 0)
                 {
-                    inventory.AddItem(last_craft_item, -item_quantity);
-                    Debug.Log("xoa ne " + (TheGame.Get().PlayTime - last_time_craft));
+                    return;
+                }
+                List<float> key_remove = new List<float>();
+                foreach (var data in items_craft_time)
+                {
+                    if (TheGame.Get().PlayTime - data.Key >= TimeOutOfDate)
+                    {
+                        inventory.AddItem(data.Value, -item_quantity);
+                        key_remove.Add(data.Key);
+                    }
+                }
+
+                foreach (var key in key_remove)
+                {
+                    items_craft_time.Remove(key);
                 }
             }
         }
@@ -249,6 +256,8 @@ namespace FarmWolffun
         {
             return selected_item;
         }
+        
+        public float AutoWorkSpeed { get { return auto_work_speed * construction.BonusValue; } }
 
         public float TimeOutOfDate { get { return time_product_out_of_date * 3600f; } }
         public Selectable Selectable { get { return selectable; } }

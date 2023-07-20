@@ -239,6 +239,8 @@ MonoBehaviour:
   default_item: {fileID: 11400000, guid: 6a58d46b9aeef8c47bfdfdedbcfc8ca4, type: 2}
   items:
   - {fileID: 11400000, guid: 6a58d46b9aeef8c47bfdfdedbcfc8ca4, type: 2}
+  produce_one_by_one: 0
+  time_product_out_of_date: 1
 --- !u!114 &2668778646483679477
 MonoBehaviour:
   m_ObjectHideFlags: 0

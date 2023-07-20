@@ -25,7 +25,11 @@ MonoBehaviour:
   craft_items_groups: []
   craft_requirements: []
   craft_duration: 1
+  craft_quantity: 1
   groups: []
+  bonus: 22
+  bonus_value: 10
+  bonus_target: {fileID: 11400000, guid: dc613741953176c4aa932ad1edbdf9f1, type: 2}
   build_limit: 1
   equivalents:
   - {fileID: 11400000, guid: 73b78e57c803dd441827f6861ab50296, type: 2}

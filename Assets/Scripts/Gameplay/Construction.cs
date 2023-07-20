@@ -28,9 +28,11 @@ namespace FarmWolffun
         private Buildable buildable;
         private Workable workable; //may be null
         private Destructible destruct; //may be null
+        private ConstructionAttribute attributes;
         private UniqueID uid;
 
         private static List<Construction> building_list = new List<Construction>();
+        private Dictionary<BonusType, BonusEffectData> bonus_effects = new Dictionary<BonusType, BonusEffectData>();
 
         protected override void Awake()
         {
@@ -248,6 +250,61 @@ namespace FarmWolffun
         {
             return Worker.CountWorkingOn(interact) == 0;
         }
+        
+        //Does not return all bonus (like tech, equipment), only returns class bonus
+        public float GetClassBonus(BonusType type, Selectable target, CraftData itarget)
+        {
+            float bonus = 0f;
+            bool is_any = target == null && itarget == null;
+            bool is_valid_select = target != null && target.HasGroup(data.bonus_target);
+            bool is_valid_item = itarget != null && itarget.HasGroup(data.bonus_target);
+
+            //Only one of the target need to be valid, or have no target
+            if (data.BonusType == type && (is_any || is_valid_select || is_valid_item))
+                bonus = data.BonusValue;
+            return bonus;
+        }
+
+        //Does not return all bonus (like class, equipment), only returns tech bonus
+        public float GetTechBonus(BonusType type, Selectable target, CraftData itarget)
+        {
+            return TechManager.Get().GetTechBonus(type, Selectable, target, itarget);
+        }
+        
+        public void SetTempBonusEffect(BonusType type, float value, float duration)
+        {
+            if (bonus_effects.ContainsKey(type))
+            {
+                if(bonus_effects[type].value < value || bonus_effects[type].duration < duration)
+                    bonus_effects[type] = new BonusEffectData(type, value, duration);
+            }
+            else
+            {
+                bonus_effects[type] = new BonusEffectData(type, value, duration);
+            }
+        }
+        public float GetTempBonusEffectValue(BonusType type)
+        {
+            if (bonus_effects.ContainsKey(type))
+                return bonus_effects[type].value;
+            return 0f;
+        }
+        
+        //Bonus Raw values
+        public float GetBonusValue(BonusType type, Selectable target = null, CraftData itarget = null)
+        {
+            float bbonus = GetTempBonusEffectValue(type);                                        //Temporary Bonus (buff)
+            float tbonus = GetTechBonus(type, target, itarget);        //Tech Bonus
+            float cbonus = GetClassBonus(type, target, itarget); //Class bonus
+            return bbonus + tbonus + cbonus;
+        }
+
+        //Bonus multiplier
+        public float GetBonusMult(BonusType type, Selectable target = null, CraftData itarget = null)
+        {
+            return 1f + GetBonusValue(type, target, itarget);
+        }
+        public float BonusValue { get; set; }
 
         public bool HasPaidCost() { return SData.paid || SData.built; }
         public bool IsCompleted() { return SData.built; }
@@ -257,6 +314,7 @@ namespace FarmWolffun
         public Selectable Selectable { get { return select; } }
         public Interactable Interactable { get { return interact; } }
         public Destructible Destructible { get { return destruct; } }
+        public ConstructionAttribute Attributes {  get { return attributes; }}
         public SaveConstructionData SData { get { return SaveData.Get().GetBuilding(uid.uid); } } //SData is the saved data linked to this object
 
         public static int CountConstructions(ConstructionData data)

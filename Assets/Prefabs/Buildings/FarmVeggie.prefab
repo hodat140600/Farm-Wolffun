@@ -375,14 +375,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96fd336c98b85134a90f08cf27eb542a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  worker_work_speed: 1
+  worker_work_speed: 0
   auto_work_speed: 1
-  item_quantity: 5
+  item_quantity: 1
   default_item: {fileID: 11400000, guid: 9f0f33009d3c9514487c1272c69955a8, type: 2}
   items:
   - {fileID: 11400000, guid: 9f0f33009d3c9514487c1272c69955a8, type: 2}
   produce_one_by_one: 1
-  time_product_out_of_date: 0.002
+  time_product_out_of_date: 1
 --- !u!114 &4552852111205552857
 MonoBehaviour:
   m_ObjectHideFlags: 0

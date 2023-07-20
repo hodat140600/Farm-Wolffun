@@ -241,6 +241,8 @@ MonoBehaviour:
   default_item: {fileID: 11400000, guid: 6a58d46b9aeef8c47bfdfdedbcfc8ca4, type: 2}
   items:
   - {fileID: 11400000, guid: 6a58d46b9aeef8c47bfdfdedbcfc8ca4, type: 2}
+  produce_one_by_one: 0
+  time_product_out_of_date: 1
 --- !u!114 &2668778646483679477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,8 +268,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a7b670b9fcc1c14f8a9d87c17127d62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attribute: 4
-  bonus: 0
+  attribute: 0
+  bonus: 22
   value: 2
   range: 20
 --- !u!1001 &63599957290203062

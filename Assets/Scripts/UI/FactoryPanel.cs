@@ -115,7 +115,7 @@ namespace FarmWolffun
 
             if (selected != null)
             {
-                if(Character.CountTargetingTarget(factory.Interactable) == 0 && factory.auto_work_speed < 0.0001f)
+                if(Character.CountTargetingTarget(factory.Interactable) == 0 && factory.AutoWorkSpeed < 0.0001f)
                     warning.text = "No Worker Assigned";
 
                 if (!global.HasCraftCost(selected))
