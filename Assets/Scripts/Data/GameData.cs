@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// Generic game data (only one file)
     /// </summary>
 
-    [CreateAssetMenu(fileName = "GameData", menuName = "Farm/GameData", order = 0)]
+    [CreateAssetMenu(fileName = "GameData", menuName = "FarmWolffun/GameData", order = 0)]
     public class GameData : ScriptableObject
     {
         [Header("Gameplay")]

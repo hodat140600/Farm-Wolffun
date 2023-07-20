@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// Action to havest resources
     /// </summary>
     
-    [CreateAssetMenu(fileName = "Action", menuName ="Farm/Actions/Build", order = 50)]
+    [CreateAssetMenu(fileName = "Action", menuName ="FarmWolffun/Actions/Build", order = 50)]
     public class ActionBuild : ActionBasic
     {
         public string build_anim = "build"; 

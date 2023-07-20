@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// Action to havest resources
     /// </summary>
     
-    [CreateAssetMenu(fileName = "Action", menuName ="Farm/Actions/Sleep", order = 50)]
+    [CreateAssetMenu(fileName = "Action", menuName ="FarmWolffun/Actions/Sleep", order = 50)]
     public class ActionSleep : ActionBasic
     {
         public float health_increase; //Per game hour

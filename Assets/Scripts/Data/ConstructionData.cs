@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace FarmWolffun
 {
-    [CreateAssetMenu(fileName = "BuildingData", menuName = "Farm/BuildingData", order = 10)]
+    [CreateAssetMenu(fileName = "BuildingData", menuName = "FarmWolffun/BuildingData", order = 10)]
     public class ConstructionData : CraftData
     {
         [Header("Class Bonus")]

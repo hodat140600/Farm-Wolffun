@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// Generic asset data (only one file)
     /// </summary>
 
-    [CreateAssetMenu(fileName = "AssetData", menuName = "Farm/AssetData", order = 0)]
+    [CreateAssetMenu(fileName = "AssetData", menuName = "FarmWolffun/AssetData", order = 0)]
     public class AssetData : ScriptableObject
     {
         [Header("Systems Prefabs")]

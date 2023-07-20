@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace FarmWolffun
 {
-    [CreateAssetMenu(fileName = "Action", menuName = "Farm/Actions/Trade", order = 50)]
+    [CreateAssetMenu(fileName = "Action", menuName = "FarmWolffun/Actions/Trade", order = 50)]
     public class ActionShop : ActionBasic
     {
         public override void StartAction(Character character, Interactable select)

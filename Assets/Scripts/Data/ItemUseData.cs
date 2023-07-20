@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// An item that can be consumed
     /// </summary>
 
-    [CreateAssetMenu(fileName = "ItemUseData", menuName = "Farm/ItemUseData", order = 10)]
+    [CreateAssetMenu(fileName = "ItemUseData", menuName = "FarmWolffun/ItemUseData", order = 10)]
     public class ItemUseData : ItemData
     {
         [Header("Use")]            //Attributes added when consumed

@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// Action to havest resources
     /// </summary>
     
-    [CreateAssetMenu(fileName = "Action", menuName ="Farm/Actions/Move", order = 50)]
+    [CreateAssetMenu(fileName = "Action", menuName ="FarmWolffun/Actions/Move", order = 50)]
     public class ActionMove : ActionBasic
     {
         public override void StartAction(Character character, Interactable target)

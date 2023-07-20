@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace FarmWolffun
 {
-    [CreateAssetMenu(fileName = "WorkerSkinData", menuName = "Farm/WorkerSkinData", order = 10)]
+    [CreateAssetMenu(fileName = "WorkerSkinData", menuName = "FarmWolffun/WorkerSkinData", order = 10)]
     public class WorkerSkinData : ScriptableObject
     {
         public string id;

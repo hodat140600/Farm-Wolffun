@@ -5,7 +5,7 @@ using UnityEngine;
 namespace FarmWolffun.Generator
 {
 
-    [CreateAssetMenu(fileName = "Biome", menuName = "Farm/WorldGen/Biome", order = 100)]
+    [CreateAssetMenu(fileName = "Biome", menuName = "FarmWolffun/WorldGen/Biome", order = 100)]
     public class BiomeData : ScriptableObject
     {
         public string id;

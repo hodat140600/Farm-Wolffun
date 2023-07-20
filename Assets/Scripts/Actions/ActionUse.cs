@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// Action to havest resources
     /// </summary>
     
-    [CreateAssetMenu(fileName = "Action", menuName ="Farm/Actions/Use", order = 50)]
+    [CreateAssetMenu(fileName = "Action", menuName ="FarmWolffun/Actions/Use", order = 50)]
     public class ActionUse : ActionBasic
     {
         public GroupData item_group;         //Item will be limited to this group, all items if null

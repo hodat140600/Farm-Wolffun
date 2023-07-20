@@ -12,7 +12,7 @@ namespace FarmWolffun.Generator
         public float probability;
     }
 
-    [CreateAssetMenu(fileName = "BiomeSpawn", menuName = "Farm/WorldGen/BiomeSpawn", order = 100)]
+    [CreateAssetMenu(fileName = "BiomeSpawn", menuName = "FarmWolffun/WorldGen/BiomeSpawn", order = 100)]
     public class BiomeSpawnData : ScriptableObject
     {
         [Header("Spawns")]

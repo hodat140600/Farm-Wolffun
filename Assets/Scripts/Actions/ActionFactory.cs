@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// Action to work in a factory (kitchen or other...)
     /// </summary>
     
-    [CreateAssetMenu(fileName = "Action", menuName = "Farm/Actions/Factory", order = 50)]
+    [CreateAssetMenu(fileName = "Action", menuName = "FarmWolffun/Actions/Factory", order = 50)]
     public class ActionFactory : ActionBasic
     {
         public string work_anim = "work"; //boolean param

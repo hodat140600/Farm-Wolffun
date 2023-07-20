@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// Data class for Non-player characters
     /// </summary>
 
-    [CreateAssetMenu(fileName = "NPCData", menuName = "Farm/NPCData", order = 10)]
+    [CreateAssetMenu(fileName = "NPCData", menuName = "FarmWolffun/NPCData", order = 10)]
     public class NPCData : CraftData
     {
         private static List<NPCData> enemy_list = new List<NPCData>();

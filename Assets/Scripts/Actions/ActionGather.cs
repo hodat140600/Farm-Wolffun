@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// Action to havest resources
     /// </summary>
     
-    [CreateAssetMenu(fileName = "Action", menuName ="Farm/Actions/Gather", order = 50)]
+    [CreateAssetMenu(fileName = "Action", menuName ="FarmWolffun/Actions/Gather", order = 50)]
     public class ActionGather : ActionBasic
     {
         public float storage_dist = 200f;   //Max auto-detect storage distance

@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// Craft group data will craft a random object within the group, instead of crafting a specific one
     /// </summary>
 
-    [CreateAssetMenu(fileName = "CraftGroupData", menuName = "Farm/CraftGroupData", order = 10)]
+    [CreateAssetMenu(fileName = "CraftGroupData", menuName = "FarmWolffun/CraftGroupData", order = 10)]
     public class CraftGroupData : CraftData
     {
         [Header("Spawn Data")]

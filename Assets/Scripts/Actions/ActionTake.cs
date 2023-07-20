@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// Action to take items
     /// </summary>
     
-    [CreateAssetMenu(fileName = "Action", menuName ="Farm/Actions/Take", order = 50)]
+    [CreateAssetMenu(fileName = "Action", menuName ="FarmWolffun/Actions/Take", order = 50)]
     public class ActionTake : ActionBasic
     {
         public ActionBasic action_return;

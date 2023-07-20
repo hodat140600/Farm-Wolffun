@@ -16,7 +16,7 @@ namespace FarmWolffun
     /// Data for items (and resources)
     /// </summary>
 
-    [CreateAssetMenu(fileName = "ItemData", menuName = "Farm/ItemData", order = 10)]
+    [CreateAssetMenu(fileName = "ItemData", menuName = "FarmWolffun/ItemData", order = 10)]
     public class ItemData : CraftData
     {
         [Header("Stats")]

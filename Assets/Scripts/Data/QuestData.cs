@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace FarmWolffun
 {
-    [CreateAssetMenu(fileName ="Quest", menuName = "Farm/QuestData", order= 10)]
+    [CreateAssetMenu(fileName ="Quest", menuName = "FarmWolffun/QuestData", order= 10)]
     public class QuestData : ScriptableObject {
 
         [Tooltip("Important: make sure all quests have a unique ID")]

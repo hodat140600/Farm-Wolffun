@@ -24,7 +24,7 @@ namespace FarmWolffun
     /// An item that can be equipped
     /// </summary>
 
-    [CreateAssetMenu(fileName = "ItemEquipData", menuName = "Farm/ItemEquipData", order = 10)]
+    [CreateAssetMenu(fileName = "ItemEquipData", menuName = "FarmWolffun/ItemEquipData", order = 10)]
     public class ItemEquipData : ItemData
     {
         [Header("Equip")]

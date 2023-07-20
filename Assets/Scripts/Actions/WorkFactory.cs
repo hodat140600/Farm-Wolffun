@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace FarmWolffun
 {
-    [CreateAssetMenu(fileName = "Work", menuName = "Farm/Work/WorkFactory", order = 40)]
+    [CreateAssetMenu(fileName = "Work", menuName = "FarmWolffun/Work/WorkFactory", order = 40)]
     public class WorkFactory : WorkBasic
     {
         public override void StartWork(Worker worker)

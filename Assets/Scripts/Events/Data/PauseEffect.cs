@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace FarmWolffun
 {
-    [CreateAssetMenu(fileName = "PauseEffect", menuName = "Farm/EventEffect/PauseEffect", order = 10)]
+    [CreateAssetMenu(fileName = "PauseEffect", menuName = "FarmWolffun/EventEffect/PauseEffect", order = 10)]
     public class PauseEffect : CustomEffect
     {
         public override void DoEffect()

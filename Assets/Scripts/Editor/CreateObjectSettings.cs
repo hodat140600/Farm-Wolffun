@@ -7,7 +7,7 @@ namespace FarmWolffun.EditorTool
     /// Default Settings file for the CreatObject editor script
     /// </summary>
     
-    [CreateAssetMenu(fileName = "CreateObjectSettings", menuName = "Farm/CreateObjectSettings", order = 100)]
+    [CreateAssetMenu(fileName = "CreateObjectSettings", menuName = "FarmWolffun/CreateObjectSettings", order = 100)]
     public class CreateObjectSettings : ScriptableObject
     {
 

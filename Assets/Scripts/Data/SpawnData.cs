@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// Data for objects that can be spawned (and saved) that are not CraftData
     /// </summary>
 
-    [CreateAssetMenu(fileName = "SpawnData", menuName = "Farm/SpawnData", order = 10)]
+    [CreateAssetMenu(fileName = "SpawnData", menuName = "FarmWolffun/SpawnData", order = 10)]
     public class SpawnData : CSData
     {
         public string id;

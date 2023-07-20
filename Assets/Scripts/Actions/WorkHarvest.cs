@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace FarmWolffun
 {
-    [CreateAssetMenu(fileName = "Work", menuName = "Farm/Work/WorkHarvest", order = 40)]
+    [CreateAssetMenu(fileName = "Work", menuName = "FarmWolffun/Work/WorkHarvest", order = 40)]
     public class WorkHarvest : WorkBasic
     {
         public ActionGather action_gather;

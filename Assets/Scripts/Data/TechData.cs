@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// Data for Techs that can be researched
     /// </summary>
 
-    [CreateAssetMenu(fileName = "TechData", menuName = "Farm/TechData", order = 10)]
+    [CreateAssetMenu(fileName = "TechData", menuName = "FarmWolffun/TechData", order = 10)]
     public class TechData : CraftData
     {
         [Header("Tech")]

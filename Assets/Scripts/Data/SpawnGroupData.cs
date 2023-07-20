@@ -8,7 +8,7 @@ namespace FarmWolffun
     /// SpawnGroupData will spawn a random object in the list, instead of a specific one, when spawned
     /// </summary>
 
-    [CreateAssetMenu(fileName = "SpawnGroupData", menuName = "Farm/SpawnGroupData", order = 10)]
+    [CreateAssetMenu(fileName = "SpawnGroupData", menuName = "FarmWolffun/SpawnGroupData", order = 10)]
     public class SpawnGroupData : SpawnData
     {
         [Header("Spawn Data")]

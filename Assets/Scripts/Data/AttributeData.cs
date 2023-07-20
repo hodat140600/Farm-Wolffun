@@ -22,7 +22,7 @@ namespace FarmWolffun
     /// Attribute data (health, hunger, thirst, etc)
     /// </summary>
 
-    [CreateAssetMenu(fileName = "AttributeData", menuName = "Farm/AttributeData", order = 11)]
+    [CreateAssetMenu(fileName = "AttributeData", menuName = "FarmWolffun/AttributeData", order = 11)]
     public class AttributeData : ScriptableObject
     {
         public AttributeType type;      //Which attribute is this?
