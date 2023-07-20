@@ -1,4 +1,4 @@
-# FarmGame
+# Farm Wolffun
 ## Scripts
 
 ### Manager Scripts
