@@ -16,7 +16,7 @@ MonoBehaviour:
   title: Seed Grain
   icon: {fileID: 21300000, guid: 2372264c1c7cd694ebd2d372672d8744, type: 3}
   sort_order: 0
-  desc: 
+  desc: Plant to produce Grain
   prefab: {fileID: 0}
   craftable: 0
   craft_items: []

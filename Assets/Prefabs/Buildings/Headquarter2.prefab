@@ -238,7 +238,7 @@ MonoBehaviour:
   worker_work_speed: 0
   auto_work_speed: 1
   item_quantity: 1
-  default_item: {fileID: 11400000, guid: 6a58d46b9aeef8c47bfdfdedbcfc8ca4, type: 2}
+  default_item: {fileID: 0}
   items:
   - {fileID: 11400000, guid: 6a58d46b9aeef8c47bfdfdedbcfc8ca4, type: 2}
   produce_one_by_one: 0

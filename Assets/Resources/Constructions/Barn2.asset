@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b31d7096c998d04ea4846295726dd8b, type: 3}
-  m_Name: Headquarter6
+  m_Name: Barn2
   m_EditorClassIdentifier: 
-  id: headquarter6
-  title: HQ 6
+  id: barn2
+  title: Barn 2
   icon: {fileID: 21300000, guid: 919806c4dc314d5449f8a22dd68ba70e, type: 3}
   sort_order: 10
-  desc: Main base level 6.
-  prefab: {fileID: 3384492504876011572, guid: 6098c8f52cd6e974380e57dabe366276, type: 3}
+  desc: Main base level 2.Upgrade can increase Farm's performance
+  prefab: {fileID: 3384492504876011572, guid: 5e77e228e1d21a84d9fe96d3c5c2fec5, type: 3}
   craftable: 0
   craft_items:
   - item: {fileID: 11400000, guid: fd295d0988d221c448b163e2bad516aa, type: 2}
@@ -28,13 +28,10 @@ MonoBehaviour:
   craft_quantity: 1
   groups: []
   bonus: 22
-  bonus_value: 60
+  bonus_value: 20
   bonus_target: {fileID: 11400000, guid: dc613741953176c4aa932ad1edbdf9f1, type: 2}
   build_limit: 1
   equivalents:
   - {fileID: 11400000, guid: 73b78e57c803dd441827f6861ab50296, type: 2}
-  - {fileID: 11400000, guid: 3023764cd0da37743a847c1825362a35, type: 2}
+  upgrades:
   - {fileID: 11400000, guid: bf2619e3865dd544bbd1c63853d42a4c, type: 2}
-  - {fileID: 11400000, guid: 4ee60703ec4312147b264e678934c579, type: 2}
-  - {fileID: 11400000, guid: 4acbc546ef0d85547b48a933e5e76c1a, type: 2}
-  upgrades: []

@@ -16,11 +16,12 @@ MonoBehaviour:
   title: Trader
   icon: {fileID: 21300000, guid: ba34b86f11df8f64ea76bab80739342f, type: 3}
   sort_order: 0
-  desc: 
+  desc: You can trade item here
   prefab: {fileID: 63803369174042755, guid: 87b5353cb60566c4e85efecc9310fbd5, type: 3}
   craftable: 0
   craft_items: []
   craft_items_groups: []
   craft_requirements: []
   craft_duration: 1
+  craft_quantity: 1
   groups: []

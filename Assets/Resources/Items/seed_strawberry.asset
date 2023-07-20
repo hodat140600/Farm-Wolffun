@@ -16,7 +16,10 @@ MonoBehaviour:
   title: Seed Strawberry
   icon: {fileID: 21300000, guid: a465869a8c4a09543bf0dc3a8602972e, type: 3}
   sort_order: 0
-  desc: Get 10 seeds in once trade
+  desc: 'Plant to produce. Can only get 10 seeds in once trade.
+
+    (Cannot trade
+    1)'
   prefab: {fileID: 0}
   craftable: 0
   craft_items: []

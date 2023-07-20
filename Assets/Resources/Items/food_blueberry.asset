@@ -16,7 +16,7 @@ MonoBehaviour:
   title: Blue berry
   icon: {fileID: 21300000, guid: 72fa74ca842ff1a4abab764ee1fea313, type: 3}
   sort_order: 0
-  desc: 
+  desc: A Blueberry. Can sell or eat
   prefab: {fileID: 1281394334841304804, guid: c7a1d659120b2b04594a547b08290058, type: 3}
   craftable: 1
   craft_items:

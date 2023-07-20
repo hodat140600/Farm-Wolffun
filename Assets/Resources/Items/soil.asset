@@ -16,7 +16,7 @@ MonoBehaviour:
   title: Soil
   icon: {fileID: 21300000, guid: 3a45c33a25674e14790a9129c2adb850, type: 3}
   sort_order: 0
-  desc: 
+  desc: Use to build a Farm Veggie, Farm Grain or Farm Animal
   prefab: {fileID: 0}
   craftable: 0
   craft_items: []

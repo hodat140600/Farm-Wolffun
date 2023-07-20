@@ -16,7 +16,7 @@ MonoBehaviour:
   title: Pig
   icon: {fileID: 21300000, guid: da5347fcde4c9134c93ef0bf28062ad7, type: 3}
   sort_order: 0
-  desc: 
+  desc: Pig can produce meat.
   prefab: {fileID: 0}
   craftable: 0
   craft_items: []

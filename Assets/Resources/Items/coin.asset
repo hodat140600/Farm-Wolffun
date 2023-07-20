@@ -16,15 +16,16 @@ MonoBehaviour:
   title: Coin
   icon: {fileID: 21300000, guid: 00401a3e42524824ea72dd444f744722, type: 3}
   sort_order: 0
-  desc: 
+  desc: Currency use to trade item with Trader
   prefab: {fileID: 4097760247755962522, guid: de77af8767313be42a6a83050820661c, type: 3}
   craftable: 1
   craft_items: []
   craft_items_groups: []
   craft_requirements: []
   craft_duration: 1
+  craft_quantity: 1
   groups: []
-  cargo_size: 1
   priority: 0
-  buy_cost: 1
-  sell_cost: 1
+  cargo_size: 1
+  trade_cost: 1
+  trade_quantiy: 1

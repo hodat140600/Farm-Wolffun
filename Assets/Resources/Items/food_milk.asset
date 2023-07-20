@@ -16,7 +16,7 @@ MonoBehaviour:
   title: Milk
   icon: {fileID: 21300000, guid: 37e5a5f29f56a994a93f341265b7aca5, type: 3}
   sort_order: 0
-  desc: 
+  desc: Cow's milk. Can sell or eat
   prefab: {fileID: 7371043950714101776, guid: b7641206084fcbf49b23768e58f2dd81, type: 3}
   craftable: 1
   craft_items:
