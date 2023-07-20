@@ -381,6 +381,8 @@ MonoBehaviour:
   default_item: {fileID: 11400000, guid: 9f0f33009d3c9514487c1272c69955a8, type: 2}
   items:
   - {fileID: 11400000, guid: 9f0f33009d3c9514487c1272c69955a8, type: 2}
+  - {fileID: 11400000, guid: e447ca7b69fc3c84ba2f7646df238fdf, type: 2}
+  - {fileID: 11400000, guid: 0a633d4260c52834d9a7148d60b12431, type: 2}
   produce_one_by_one: 1
   time_product_out_of_date: 1
 --- !u!114 &4552852111205552857

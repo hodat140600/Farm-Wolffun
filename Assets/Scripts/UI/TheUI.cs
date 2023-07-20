@@ -86,6 +86,11 @@ namespace FarmWolffun
             PauseMenu.Get().Show();
         }
 
+        public void OnVictory()
+        {
+            WinMenu.Get().Show();
+        }
+
         public Vector2 GetCanvasSize()
         {
             return rect.sizeDelta;

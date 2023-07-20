@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9e900250253d294babe9c3f427f518d, type: 3}
   m_Name: animal_pig
   m_EditorClassIdentifier: 
-  id: animal_cow
-  title: Cow
-  icon: {fileID: 21300000, guid: 972b3c8d07510f54db0c4d444e0a27d7, type: 3}
+  id: animal_pig
+  title: Pig
+  icon: {fileID: 21300000, guid: da5347fcde4c9134c93ef0bf28062ad7, type: 3}
   sort_order: 0
   desc: 
   prefab: {fileID: 0}
-  craftable: 1
+  craftable: 0
   craft_items: []
   craft_items_groups: []
   craft_requirements: []
@@ -29,3 +29,4 @@ MonoBehaviour:
   priority: 0
   cargo_size: 1
   trade_cost: 8
+  trade_quantiy: 1

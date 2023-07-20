@@ -18,7 +18,7 @@ MonoBehaviour:
   sort_order: 0
   desc: 
   prefab: {fileID: 0}
-  craftable: 1
+  craftable: 0
   craft_items: []
   craft_items_groups: []
   craft_requirements: []
@@ -29,3 +29,4 @@ MonoBehaviour:
   priority: 0
   cargo_size: 1
   trade_cost: 8
+  trade_quantiy: 1

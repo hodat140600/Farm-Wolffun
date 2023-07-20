@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: FarmVeggie
   m_EditorClassIdentifier: 
   id: farm_veggie
-  title: Carrot Farm
+  title: Veggie Farm
   icon: {fileID: 21300000, guid: e83d7acd443a9c54dbbbd5c89265ccfe, type: 3}
   sort_order: 5
-  desc: A farm that grows carrots.
+  desc: A farm that grows veggies.
   prefab: {fileID: 1137146236862253568, guid: 25ec80b1fa3eb7343a7ab80e5ec564c2, type: 3}
   craftable: 1
   craft_items:
@@ -28,6 +28,9 @@ MonoBehaviour:
   craft_quantity: 1
   groups:
   - {fileID: 11400000, guid: 07af8fe59390f234eabd5d918332efba, type: 2}
+  bonus: 0
+  bonus_value: 0
+  bonus_target: {fileID: 0}
   build_limit: 0
   equivalents: []
   upgrades: []
