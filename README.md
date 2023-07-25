@@ -18,10 +18,6 @@ All managers can be accessed with Get() example TheGame.Get()
 
   *Use this to play SFX or music. It works by channel so 2 sfx in different channel will play at the same time, but sfx in the same channel will replace each other. This prevent sounds accumulation if many 
 actions happen at the same time, it also allow to control volume globally.*
-- [TheAudio.cs](Assets/Scripts/TheAudio.cs)
-
-  *Use this to play SFX or music. It works by channel so 2 sfx in different channel will play at the same time, but sfx in the same channel will replace each other. This prevent sounds accumulation if many 
-actions happen at the same time, it also allow to control volume globally.*
 - [WorkerManager.cs](Assets/Scripts/WorkerManager.cs)
 
   *Manage the schedule of colonists, will send them to work automatically to the highest priority work location that is unassigned. And will make the worker start/stop working when a condition is met.*
